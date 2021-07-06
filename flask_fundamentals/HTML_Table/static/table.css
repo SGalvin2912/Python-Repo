@@ -1,0 +1,11 @@
+*{
+    background-color: lightskyblue;
+    margin: 15px;
+}
+
+table, th, td{
+    border: 1px dashed black;
+}
+
+
+

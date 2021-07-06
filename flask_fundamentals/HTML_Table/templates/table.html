@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='table.css')}}">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Full Name</th>
+            </tr>
+            <tr>
+                <td>{{users[0]['first_name']}}</td>
+                <td>{{users[0]['last_name']}}</td>
+                <td>{{users[0]['first_name']}} {{users[0]['last_name']}}</td>
+            </tr>
+            <tr>
+                <td>{{users[1]['first_name']}}</td>
+                <td>{{users[1]['last_name']}}</td>
+                <td>{{users[1]['first_name']}} {{users[1]['last_name']}}</td>
+            </tr>
+            <tr>
+                <td>{{users[2]['first_name']}}</td>
+                <td>{{users[2]['last_name']}}</td>
+                <td>{{users[2]['first_name']}} {{users[2]['last_name']}}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
